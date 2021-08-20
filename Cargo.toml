@@ -1,0 +1,12 @@
+[package]
+name = "un"
+version = "0.1.0"
+edition = "2018"
+
+[workspace]
+
+[dependencies]
+libun = { path = "libun" }
+clap = "3.0.0-beta.4"
+# TODO: Strip unused features
+tokio = { version = "1.10.0", features = ["full"] }
